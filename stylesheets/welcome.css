@@ -65,13 +65,13 @@
   transform: translateX(-204px);
 }
 
-.welcomeScreen:[data-state="1"] .rectangle {
+.welcomeScreen[data-state="1"] .rectangle {
   transform: rotateX(20deg) rotateY(-70deg) translateZ(4vw) translateX(15vw);
 }
-.welcomeScreen:[data-state="2"] .rectangle {
+.welcomeScreen[data-state="2"] .rectangle {
   transform: rotateX(50deg) rotateY(-30deg) translateZ(3vw) translateX(-15vw);
 }
-.welcomeScreen:[data-state="3"] .rectangle {
+.welcomeScreen[data-state="3"] .rectangle {
   transform: rotateX(20deg) rotateY(70deg) translateZ(4vw) translateX(15vw) rotateY(80deg);
 }
 
